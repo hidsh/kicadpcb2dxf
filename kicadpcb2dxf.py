@@ -899,22 +899,22 @@ with r12writer(out_filename) as dxf:
         if "fp_line" in line:
             if "Dwgs" in line:
                 layer=0; color=None; create=1
-            if "Cmts" in line:
-                layer="Cmts"; color=1; create=1
+#           if "Cmts" in line:
+#               layer="Cmts"; color=1; create=1
             if "Edge" in line:
                 layer="Edge"; color=2; create=1
             if "Eco1" in line:
                 layer="Eco1"; color=3; create=1
-            if "Eco2" in line:
-                layer="Eco2"; color=4; create=1
-            if "F.Fab" in line:
-                layer="FFab"; color=5; create=1
-            if "B.Fab" in line:
-                layer="BFab"; color=6; create=1
-            if "F.CrtYd" in line:
-                layer="FCrtYd"; color=7; create=1
-            if "B.CrtYd" in line:
-                layer="BCrtYd"; color=8; create=1
+#           if "Eco2" in line:
+#               layer="Eco2"; color=4; create=1
+#           if "F.Fab" in line:
+#               layer="FFab"; color=5; create=1
+#           if "B.Fab" in line:
+#               layer="BFab"; color=6; create=1
+#           if "F.CrtYd" in line:
+#               layer="FCrtYd"; color=7; create=1
+#           if "B.CrtYd" in line:
+#               layer="BCrtYd"; color=8; create=1
             if create==1:
                 coords=line.split('(',1)[-1]
                 coords=coords.split(" ")
@@ -933,22 +933,22 @@ with r12writer(out_filename) as dxf:
         if "fp_circle" in line:
             if "Dwgs" in line:
                 layer=0; color=None; create=1
-            if "Cmts" in line:
-                layer="Cmts"; color=1; create=1
+#           if "Cmts" in line:
+#               layer="Cmts"; color=1; create=1
             if "Edge" in line:
                 layer="Edge"; color=2; create=1
             if "Eco1" in line:
                 layer="Eco1"; color=3; create=1
-            if "Eco2" in line:
-                layer="Eco2"; color=4; create=1
-            if "F.Fab" in line:
-                layer="FFab"; color=5; create=1
-            if "B.Fab" in line:
-                layer="BFab"; color=6; create=1
-            if "F.CrtYd" in line:
-                layer="FCrtYd"; color=7; create=1
-            if "B.CrtYd" in line:
-                layer="BCrtYd"; color=8; create=1
+#           if "Eco2" in line:
+#               layer="Eco2"; color=4; create=1
+#           if "F.Fab" in line:
+#               layer="FFab"; color=5; create=1
+#           if "B.Fab" in line:
+#               layer="BFab"; color=6; create=1
+#           if "F.CrtYd" in line:
+#               layer="FCrtYd"; color=7; create=1
+#           if "B.CrtYd" in line:
+#               layer="BCrtYd"; color=8; create=1
             if create==1:
                 coords=line.split('(',1)[-1]
                 coords=coords.split(" ")
@@ -964,22 +964,22 @@ with r12writer(out_filename) as dxf:
         if "fp_arc" in line:
             if "Dwgs" in line:
                 layer=0; color=None; create=1
-            if "Cmts" in line:
-                layer="Cmts"; color=1; create=1
+#           if "Cmts" in line:
+#               layer="Cmts"; color=1; create=1
             if "Edge" in line:
                 layer="Edge"; color=2; create=1
             if "Eco1" in line:
                 layer="Eco1"; color=3; create=1
-            if "Eco2" in line:
-                layer="Eco2"; color=4; create=1
-            if "F.Fab" in line:
-                layer="FFab"; color=5; create=1
-            if "B.Fab" in line:
-                layer="BFab"; color=6; create=1
-            if "F.CrtYd" in line:
-                layer="FCrtYd"; color=7; create=1
-            if "B.CrtYd" in line:
-                layer="BCrtYd"; color=8; create=1
+#           if "Eco2" in line:
+#               layer="Eco2"; color=4; create=1
+#           if "F.Fab" in line:
+#               layer="FFab"; color=5; create=1
+#           if "B.Fab" in line:
+#               layer="BFab"; color=6; create=1
+#           if "F.CrtYd" in line:
+#               layer="FCrtYd"; color=7; create=1
+#           if "B.CrtYd" in line:
+#               layer="BCrtYd"; color=8; create=1
             if create==1:
                 coords=line.split('(',1)[-1]
                 coords=coords.split(" ")
@@ -1007,22 +1007,22 @@ with r12writer(out_filename) as dxf:
         if "gr_line" in line:
             if "Dwgs" in line:
                 layer=0; color=None; create=1
-            if "Cmts" in line:
-                layer="Cmts"; color=1; create=1
+#           if "Cmts" in line:
+#               layer="Cmts"; color=1; create=1
             if "Edge" in line:
                 layer="Edge"; color=2; create=1
             if "Eco1" in line:
                 layer="Eco1"; color=3; create=1
-            if "Eco2" in line:
-                layer="Eco2"; color=4; create=1
-            if "F.Fab" in line:
-                layer="FFab"; color=5; create=1
-            if "B.Fab" in line:
-                layer="BFab"; color=6; create=1
-            if "F.CrtYd" in line:
-                layer="FCrtYd"; color=7; create=1
-            if "B.CrtYd" in line:
-                layer="BCrtYd"; color=8; create=1
+#           if "Eco2" in line:
+#               layer="Eco2"; color=4; create=1
+#           if "F.Fab" in line:
+#               layer="FFab"; color=5; create=1
+#           if "B.Fab" in line:
+#               layer="BFab"; color=6; create=1
+#           if "F.CrtYd" in line:
+#               layer="FCrtYd"; color=7; create=1
+#           if "B.CrtYd" in line:
+#               layer="BCrtYd"; color=8; create=1
             if create==1:
                 coords=line.split('(',1)[-1]
                 coords=coords.split(" ")
@@ -1038,22 +1038,22 @@ with r12writer(out_filename) as dxf:
         if "gr_circle" in line:
             if "Dwgs" in line:
                 layer=0; color=None; create=1
-            if "Cmts" in line:
-                layer="Cmts"; color=1; create=1
+#           if "Cmts" in line:
+#               layer="Cmts"; color=1; create=1
             if "Edge" in line:
                 layer="Edge"; color=2; create=1
             if "Eco1" in line:
                 layer="Eco1"; color=3; create=1
-            if "Eco2" in line:
-                layer="Eco2"; color=4; create=1
-            if "F.Fab" in line:
-                layer="FFab"; color=5; create=1
-            if "B.Fab" in line:
-                layer="BFab"; color=6; create=1
-            if "F.CrtYd" in line:
-                layer="FCrtYd"; color=7; create=1
-            if "B.CrtYd" in line:
-                layer="BCrtYd"; color=8; create=1
+#           if "Eco2" in line:
+#               layer="Eco2"; color=4; create=1
+#           if "F.Fab" in line:
+#               layer="FFab"; color=5; create=1
+#           if "B.Fab" in line:
+#               layer="BFab"; color=6; create=1
+#           if "F.CrtYd" in line:
+#               layer="FCrtYd"; color=7; create=1
+#           if "B.CrtYd" in line:
+#               layer="BCrtYd"; color=8; create=1
             if create==1:
                 coords=line.split('(',1)[-1]
                 coords=coords.split(" ")
@@ -1069,22 +1069,22 @@ with r12writer(out_filename) as dxf:
         if "gr_arc" in line:
             if "Dwgs" in line:
                 layer=0; color=None; create=1
-            if "Cmts" in line:
-                layer="Cmts"; color=1; create=1
+#           if "Cmts" in line:
+#               layer="Cmts"; color=1; create=1
             if "Edge" in line:
                 layer="Edge"; color=2; create=1
             if "Eco1" in line:
                 layer="Eco1"; color=3; create=1
-            if "Eco2" in line:
-                layer="Eco2"; color=4; create=1
-            if "F.Fab" in line:
-                layer="FFab"; color=5; create=1
-            if "B.Fab" in line:
-                layer="BFab"; color=6; create=1
-            if "F.CrtYd" in line:
-                layer="FCrtYd"; color=7; create=1
-            if "B.CrtYd" in line:
-                layer="BCrtYd"; color=8; create=1
+#           if "Eco2" in line:
+#               layer="Eco2"; color=4; create=1
+#           if "F.Fab" in line:
+#               layer="FFab"; color=5; create=1
+#           if "B.Fab" in line:
+#               layer="BFab"; color=6; create=1
+#           if "F.CrtYd" in line:
+#               layer="FCrtYd"; color=7; create=1
+#           if "B.CrtYd" in line:
+#               layer="BCrtYd"; color=8; create=1
             if create==1:
                 coords=line.split('(',1)[-1]
                 coords=coords.split(" ")
@@ -1113,22 +1113,22 @@ with r12writer(out_filename) as dxf:
         if "gr_text" in line:
             if "Dwgs" in line:
                 layer=0; color=None; createTxt=1
-            if "Cmts" in line:
-                layer="Cmts"; color=1; createTxt=1
+#           if "Cmts" in line:
+#               layer="Cmts"; color=1; createTxt=1
             if "Edge" in line:
                 layer="Edge"; color=2; createTxt=1
             if "Eco1" in line:
                 layer="Eco1"; color=3; createTxt=1
-            if "Eco2" in line:
-                layer="Eco2"; color=4; createTxt=1
-            if "F.Fab" in line:
-                layer="FFab"; color=5; createTxt=1
-            if "B.Fab" in line:
-                layer="BFab"; color=6; createTxt=1
-            if "F.CrtYd" in line:
-                layer="FCrtYd"; color=7; createTxt=1
-            if "B.CrtYd" in line:
-                layer="BCrtYd"; color=8; createTxt=1
+#           if "Eco2" in line:
+#               layer="Eco2"; color=4; createTxt=1
+#           if "F.Fab" in line:
+#               layer="FFab"; color=5; createTxt=1
+#           if "B.Fab" in line:
+#               layer="BFab"; color=6; createTxt=1
+#           if "F.CrtYd" in line:
+#               layer="FCrtYd"; color=7; createTxt=1
+#           if "B.CrtYd" in line:
+#               layer="BCrtYd"; color=8; createTxt=1
             if createTxt==1:        
                 #(gr_text Rotate (at 325.374 52.705 15) (layer Eco2.User)
                 line=line.strip().split("(gr_text ")[1].split("(at")
